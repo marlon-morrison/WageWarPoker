@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: Neuton;
+   src: url('Neuton-Regular.ttf') format('woff');
+}
+body {
+    background-color: #000;
+}
+header {
+    background-color: #0C1821;
+}
+header h1 {
+    font-family: Neuton;
+    color: #CCC9DC;
+    font-size: 53px;
+}
+header nav {
+    float: right;
+}
+header ul {
+    margin-top: 16px;
+    background-color: #324A5F;
+    padding: 12px;
+}
+header li {
+    display: inline;
+    text-transform: capitalize;
+}
+header a {
+    text-decoration: none;
+    color: #CCC9DC;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    color: #CCC9DC;
+}
+.hero img {
+    width: 70%;
+    margin: 15px 10%;
+    border: 12px solid #324A5F;
+}
+.info {
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    width: 60%;
+    font-size: 16px;
+    background: #0C1821;
+    padding: 20px;
+}
+main {
+    color: #CCC9DC;
+    border: 10px solid #324A5F;
+    padding: 20px;
+}
+main h2 {
+    color: #CCC9DC;
+    background-color: #1B2A41;
+    padding: 10px;
+    border-radius: 2%;
+}
+#win {
+    padding: 0;
+}
+main button {
+    background: #000;
+}
+footer {
+    background: #1B2A41;
+    font-size: 1em;
+    font-style: normal;
+    width: 100%;
+    margin-top: 20px;
+}
+footer ul {
+    margin-top: 16px;
+    padding: 12px;
+    text-align: center;
+}
+footer li {
+    display: inline;
+    text-transform: capitalize;
+}
+footer a {
+    text-decoration: none;
+    color: #CCC9DC;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+footer a:hover {
+    color: #fff;
+}
